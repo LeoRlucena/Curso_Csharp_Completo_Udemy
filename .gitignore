@@ -1,1 +1,217 @@
 .vs/
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# VS Code directories
+.vscode/
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# File-based packages
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+TestResult*.xml
+nunit-*.xml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Ll]og[1-9]*/
+[Ll]og[1-9]_*/ 
+
+# Exclude all files with 'csc' in their names
+csc*
+
+# Azure DevOps
+.vsts-ci.yml
+
+# Local history for JetBrains IDEs
+.idea/
+
+# Code Coverage Results
+coverage/
+*.coverage
+*.coveragexml
+*.sonarqube.out
+.gcov
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# TODO local history
+localhistory/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# dotnet script
+**/dotnet-scripts/
+
+# VS Code directories
+.vscode/
+.vscode/*
+
+# Local history for JetBrains IDEs
+.idea/
+.idea/*
+
+# Rider
+.idea/
+
+# TODO local history
+localhistory/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Local history for JetBrains IDEs
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Local history for JetBrains IDEs
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# dotnet script
+**/dotnet-scripts/
