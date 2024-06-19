@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+
+            // Fazer um programa para ler os dados de duas pessoas, depois mostrar o nome da pessoa mais velha.
+
             Pessoa p1 = new Pessoa();
             Pessoa p2 = new Pessoa();
 
