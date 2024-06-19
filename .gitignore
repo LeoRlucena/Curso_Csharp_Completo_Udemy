@@ -61,20 +61,6 @@ $RECYCLE.BIN/
 # Mono Auto Generated Files
 mono_crash.*
 
-# Windows image file caches
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows shortcuts
-*.lnk
-
 # DotNetCore
 project.lock.json
 project.fragment.lock.json
@@ -109,7 +95,7 @@ bld/
 [Ll]og/
 [Ll]ogs/
 [Ll]og[1-9]*/
-[Ll]og[1-9]_*/ 
+[Ll]og[1-9]_*/
 
 # Exclude all files with 'csc' in their names
 csc*
@@ -135,79 +121,6 @@ _NCrunch_*
 localhistory/
 
 # Rider
-.idea/
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows image file caches
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows shortcuts
-*.lnk
-
-# Rider
-.idea/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# dotnet script
-**/dotnet-scripts/
-
-# VS Code directories
-.vscode/
-.vscode/*
-
-# Local history for JetBrains IDEs
-.idea/
-.idea/*
-
-# Rider
-.idea/
-
-# TODO local history
-localhistory/
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Rider
-.idea/
-
-# Local history for JetBrains IDEs
-.idea/
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Rider
-.idea/
-
-# Local history for JetBrains IDEs
 .idea/
 
 # ASP.NET Scaffolding
