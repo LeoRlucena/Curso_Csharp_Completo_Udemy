@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Curso C# Completo (Udemy)\\Problema_Exemplo\\",
+  "WorkspaceRootPath": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01F1D4E2-C377-4FEF-915C-2EA9A1D1CAD2}|Problema_Exemplo.csproj|e:\\curso c# completo (udemy)\\problema_exemplo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01F1D4E2-C377-4FEF-915C-2EA9A1D1CAD2}|Problema_Exemplo.csproj|e:\\curso-c#-completo-udemy\\curso_csharp_completo_udemy\\problema_exemplo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F1D4E2-C377-4FEF-915C-2EA9A1D1CAD2}|Problema_Exemplo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F1D4E2-C377-4FEF-915C-2EA9A1D1CAD2}|Problema_Exemplo.csproj|e:\\curso-c#-completo-udemy\\curso_csharp_completo_udemy\\problema_exemplo\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F1D4E2-C377-4FEF-915C-2EA9A1D1CAD2}|Problema_Exemplo.csproj|solutionrelative:triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Curso C# Completo (Udemy)\\Problema_Exemplo\\Program.cs",
+              "DocumentMoniker": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Curso C# Completo (Udemy)\\Problema_Exemplo\\Program.cs",
+              "ToolTip": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwCQAAAAzAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwB4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T12:43:12.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Triangulo.cs",
+              "DocumentMoniker": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Triangulo.cs",
+              "RelativeDocumentMoniker": "Triangulo.cs",
+              "ToolTip": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Triangulo.cs",
+              "RelativeToolTip": "Triangulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T13:31:10.718Z",
               "EditorCaption": ""
             }
           ]
