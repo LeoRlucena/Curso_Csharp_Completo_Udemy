@@ -27,3 +27,18 @@ E:\Curso-C#-Completo-Udemy\Curso_Csharp_Completo_Udemy\Problema_Exemplo\obj\Debu
 E:\Curso-C#-Completo-Udemy\Curso_Csharp_Completo_Udemy\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.pdb
 E:\Curso-C#-Completo-Udemy\Curso_Csharp_Completo_Udemy\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.genruntimeconfig.cache
 E:\Curso-C#-Completo-Udemy\Curso_Csharp_Completo_Udemy\Problema_Exemplo\obj\Debug\net8.0\ref\Problema_Exemplo.dll
+D:\Curso C# Completo\Problema_Exemplo\bin\Debug\net8.0\Problema_Exemplo.exe
+D:\Curso C# Completo\Problema_Exemplo\bin\Debug\net8.0\Problema_Exemplo.deps.json
+D:\Curso C# Completo\Problema_Exemplo\bin\Debug\net8.0\Problema_Exemplo.runtimeconfig.json
+D:\Curso C# Completo\Problema_Exemplo\bin\Debug\net8.0\Problema_Exemplo.dll
+D:\Curso C# Completo\Problema_Exemplo\bin\Debug\net8.0\Problema_Exemplo.pdb
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.AssemblyInfoInputs.cache
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.AssemblyInfo.cs
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.csproj.CoreCompileInputs.cache
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.sourcelink.json
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.dll
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\refint\Problema_Exemplo.dll
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.pdb
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\Problema_Exemplo.genruntimeconfig.cache
+D:\Curso C# Completo\Problema_Exemplo\obj\Debug\net8.0\ref\Problema_Exemplo.dll

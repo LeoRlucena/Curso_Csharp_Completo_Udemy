@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Problema_Exemplo.csproj": {}
+    "D:\\Curso C# Completo\\Problema_Exemplo\\Problema_Exemplo.csproj": {}
   },
   "projects": {
-    "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Problema_Exemplo.csproj": {
+    "D:\\Curso C# Completo\\Problema_Exemplo\\Problema_Exemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Problema_Exemplo.csproj",
+        "projectUniqueName": "D:\\Curso C# Completo\\Problema_Exemplo\\Problema_Exemplo.csproj",
         "projectName": "Problema_Exemplo",
-        "projectPath": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\Problema_Exemplo.csproj",
-        "packagesPath": "C:\\Users\\Léo\\.nuget\\packages\\",
-        "outputPath": "E:\\Curso-C#-Completo-Udemy\\Curso_Csharp_Completo_Udemy\\Problema_Exemplo\\obj\\",
+        "projectPath": "D:\\Curso C# Completo\\Problema_Exemplo\\Problema_Exemplo.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso C# Completo\\Problema_Exemplo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Léo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
