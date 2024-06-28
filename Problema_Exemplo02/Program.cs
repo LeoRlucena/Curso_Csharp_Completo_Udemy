@@ -14,15 +14,16 @@ namespace Problema_Exemplo02
             // Criar uma classe "Produto" com os atributos: Nome, Preco, Quantidade.
             // Métodos: ValorTotalEmEstoque(), AdicionarProdutos(int), RemoverProdutos(int).
 
-            Produto p = new Produto();
             
             Console.WriteLine("Entre os dados do produto: ");
             Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Quantidade em estoque: ");
-            p.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            int quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Produto p = new Produto(nome, preco, quantidade);
 
             Console.WriteLine();
             Console.WriteLine("Dados do Produto: " + p);
