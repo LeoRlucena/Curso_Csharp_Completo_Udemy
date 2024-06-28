@@ -20,6 +20,17 @@ namespace Problema_Exemplo02
             Quantidade = quantidade;
         }
 
+        public Produto(string nome, double preco)
+        {
+            Nome = nome;
+            Preco = preco;
+        }
+
+        public Produto()
+        {
+
+        }
+
         public double ValorTotalEmEstoque()
         {
             return Quantidade * Preco;
