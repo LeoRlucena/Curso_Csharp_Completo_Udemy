@@ -13,22 +13,20 @@ namespace Problema_Exemplo02
         public double Preco;
         public int Quantidade;
 
-        public Produto(string nome, double preco, int quantidade)
-        {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
-        }
-
-        public Produto(string nome, double preco)
-        {
-            Nome = nome;
-            Preco = preco;
-        }
-
         public Produto()
         {
+            Quantidade = 10;
+        }
 
+        public Produto(string nome, double preco) : this()
+        {
+            Nome = nome;
+            Preco = preco;
+        }
+
+        public Produto(string nome, double preco, int quantidade) : this()
+        {
+            Quantidade = quantidade;
         }
 
         public double ValorTotalEmEstoque()
