@@ -25,6 +25,8 @@ namespace Problema_Exemplo02
 
             Produto p = new Produto(nome, preco, quantidade);
 
+            Produto p2 = new Produto() { Nome = "TV", Preco = 500.00, Quantidade = 20 };
+
             Console.WriteLine();
             Console.WriteLine("Dados do Produto: " + p);
 
