@@ -9,44 +9,60 @@ namespace Problema_Exemplo02
 {
     internal class Produto
     {
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
+        private string _nome;
+        private double _preco;
+        private int _quantidade;
 
-        public Produto()
+        public Produto() { }
+
+        public Produto(string nome, double preco, int quantidade)
         {
-            Quantidade = 10;
+            _nome = nome;
+            _preco = preco;
+            _quantidade = quantidade;
         }
 
-        public Produto(string nome, double preco) : this()
+        public string GetNome()
         {
-            Nome = nome;
-            Preco = preco;
+            return _nome;
         }
 
-        public Produto(string nome, double preco, int quantidade) : this()
+        public void SetNome(string nome)
         {
-            Quantidade = quantidade;
+            if (nome != null && nome.Length > 1)
+            {
+                _nome = nome;
+            }           
+        }
+
+        public double GetPreco()
+        {
+            return _preco; 
+        }
+
+        public int GetQuantidade()
+        {
+            return _quantidade;
         }
 
         public double ValorTotalEmEstoque()
         {
-            return Quantidade * Preco;
+            return _quantidade * _preco;
         }
 
         public void AdicionarProdutos(int quantidade) 
         {
-            Quantidade += quantidade;
+            _quantidade += quantidade;
         }
 
         public void RemoverProdutos(int quantidade)
         {
-            Quantidade -= quantidade;
+            _quantidade -= quantidade;
         }
 
         public override string ToString()
         {
-            return Nome + ", $ " + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + Quantidade + " unidades, Total: $ " + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
+            return _nome + ", $ " + _preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + _quantidade + " unidades, Total: $ " + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
 
 
