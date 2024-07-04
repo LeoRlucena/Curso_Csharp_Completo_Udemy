@@ -22,29 +22,42 @@ namespace Exercicio_Banco
             //informado o valor de depósito inicial.Em seguida, realizar um depósito e depois um saque, sempre
             //mostrando os dados da conta após cada operação.
 
+            ContaBancaria contaBancaria;
+
             Console.Write("Digite o número da conta: ");
-            Console.ReadLine();
+            int numero = int.Parse(Console.ReadLine());
             Console.Write("Digite o titular da conta: ");
-            Console.ReadLine();
+            string titular = Console.ReadLine();
             Console.Write("Haverá depósito inicial (s/n)? ");
-            string DepositoInicial = Console.ReadLine();
-            if (DepositoInicial == "s") 
+            char resp = char.Parse(Console.ReadLine());
+            if (resp == 's' || resp == 'S') 
             {
                 Console.Write("Entre o valor de depósito inicial: ");
-                Console.ReadLine();
+                double depositoInicial = double.Parse(Console.ReadLine());
+                contaBancaria = new ContaBancaria(numero, titular, depositoInicial);
             }
-            
+            else
+            {
+                contaBancaria = new ContaBancaria(numero, titular);
+            }
 
+            Console.WriteLine();
             Console.WriteLine("Dados da conta: ");
-            //
+            Console.WriteLine(contaBancaria);
 
+            Console.WriteLine();
             Console.Write("Entre um valor para depósito: ");
+            double quantia = double.Parse(Console.ReadLine());
+            contaBancaria.Deposito(quantia);
             Console.WriteLine("Dados da conta atualizados: ");
-            //
+            Console.WriteLine(contaBancaria);
 
+            Console.WriteLine();
             Console.Write("Entre um valor para saque: ");
+            quantia = double.Parse(Console.ReadLine());
+            contaBancaria.Saque(quantia);
             Console.WriteLine("Dados da conta atualizados: ");
-            //
+            Console.WriteLine(contaBancaria);
         }
     }
 }
