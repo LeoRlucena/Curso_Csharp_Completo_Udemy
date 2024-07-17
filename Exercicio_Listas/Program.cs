@@ -19,8 +19,7 @@ namespace Exercicio_Listas
             //ser mudado livremente. Um salário só pode ser aumentado com base em uma operação de
             //aumento por porcentagem dada.
 
-            Employee employee = new Employee();
-            List<Employee> employess = new List<Employee>();
+            List<Employee> employees = new List<Employee>();
 
             Console.Write("How many employees will be registered? ");
             int N = int.Parse(Console.ReadLine());
@@ -33,21 +32,28 @@ namespace Exercicio_Listas
                 string name = Console.ReadLine();                
                 Console.Write("Salary: ");
                 double salary = double.Parse(Console.ReadLine());
-                employee = new Employee(id, name, salary);
-                employess.Add(employee);
+                employees.Add(new Employee(id, name, salary));
                 Console.WriteLine();
             }
 
             Console.Write("Enter the employee id that will have salary increase: ");
-            int idt = int.Parse(Console.ReadLine());
-            
-
-            
-
+            int searchId = int.Parse(Console.ReadLine());
+                       
+            Employee emp = employees.Find(x => x.Id == searchId);
+            if (emp != null)
+            {
+                Console.Write("Enter percentage: ");
+                double percentage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                emp.increaseSalary(percentage);
+            }
+            else
+            {
+                Console.WriteLine("This id does not exist!");
+            }
           
-
+            Console.WriteLine();
             Console.WriteLine("Updated list of employees: ");
-            foreach (Employee obj in employess)
+            foreach (Employee obj in employees)
             {
                 Console.WriteLine(obj);
             }

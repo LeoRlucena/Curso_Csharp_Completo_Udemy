@@ -11,34 +11,18 @@ namespace Exercicio_Listas
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public double Salary { get; set; }
+        public double Salary { get; private set; }
 
         public Employee(int id, string name, double salary)
         {
             Id = id;
             Name = name;
             Salary = salary;
-        }
+        }    
 
-        public Employee(int id)
+        public void increaseSalary(double percentage)
         {
-            Id = id;
-        }
-
-        public Employee(int id, string name)
-        {
-            Id = id;
-            Name = name;           
-        }
-
-        public Employee()
-        {
-            
-        }
-
-        public void increaceSalary(double salary, double pct)
-        {
-            salary = salary + (salary * pct / 100);
+            Salary += Salary * percentage / 100.0;
         }
 
         public override string ToString()
