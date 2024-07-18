@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressao_Condicional_Ternaria", "Expressao_Condicional_Ternaria.csproj", "{1E12C1EB-74ED-4F14-9FFA-3D1DC80C5856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E12C1EB-74ED-4F14-9FFA-3D1DC80C5856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E12C1EB-74ED-4F14-9FFA-3D1DC80C5856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E12C1EB-74ED-4F14-9FFA-3D1DC80C5856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E12C1EB-74ED-4F14-9FFA-3D1DC80C5856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0284654E-DD08-4166-99F1-20749CF10714}
+	EndGlobalSection
+EndGlobal
