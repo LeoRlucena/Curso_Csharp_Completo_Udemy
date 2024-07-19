@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operacoes_TimeSpan", "Operacoes_TimeSpan.csproj", "{D68B82DD-CE67-42FF-A5A7-D94D27271F3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D68B82DD-CE67-42FF-A5A7-D94D27271F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68B82DD-CE67-42FF-A5A7-D94D27271F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68B82DD-CE67-42FF-A5A7-D94D27271F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68B82DD-CE67-42FF-A5A7-D94D27271F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C9F2AB1-924C-4102-B754-8799A2351AB7}
+	EndGlobalSection
+EndGlobal
