@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bloco_Finally", "Bloco_Finally.csproj", "{2ADF9D77-4A1D-4DFE-9AAE-353E6185DC14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ADF9D77-4A1D-4DFE-9AAE-353E6185DC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADF9D77-4A1D-4DFE-9AAE-353E6185DC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADF9D77-4A1D-4DFE-9AAE-353E6185DC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADF9D77-4A1D-4DFE-9AAE-353E6185DC14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85203F0B-4500-4730-9F67-FFA8F397FF54}
+	EndGlobalSection
+EndGlobal
