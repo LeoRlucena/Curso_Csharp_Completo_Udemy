@@ -1,47 +1,48 @@
 ﻿using System;
-using Excecoes_Personalizadas.Entities;
-using System.Globalization;
+using Course.Entities;
+using Excecoes_Personalizadas.Entities.Exceptions;
 
-namespace Excecoes_Personalizadas
+namespace Course
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Room number: ");
-            int number = int.Parse(Console.ReadLine());
-            Console.Write("Check-in date (dd/MM/yyyy): ");
-            DateTime checkIn = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
-            Console.Write("Check-out date (dd/MM/yyyy): ");
-            DateTime checkOut = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
-            if (checkOut <= checkIn)
+            try
             {
-                Console.WriteLine("Error in reservation: Check-out date must be after Check-in date");
-            }
-            else
-            {
+                Console.Write("Room number: ");
+                int number = int.Parse(Console.ReadLine());
+                Console.Write("Check-in date (dd/MM/yyyy): ");
+                DateTime checkIn = DateTime.Parse(Console.ReadLine());
+                Console.Write("Check-out date (dd/MM/yyyy): ");
+                DateTime checkOut = DateTime.Parse(Console.ReadLine());
+
                 Reservation reservation = new Reservation(number, checkIn, checkOut);
                 Console.WriteLine("Reservation: " + reservation);
 
                 Console.WriteLine();
-                Console.WriteLine("Enter data to update the reservation: ");
+                Console.WriteLine("Enter data to update the reservation:");
                 Console.Write("Check-in date (dd/MM/yyyy): ");
-                checkIn = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                checkIn = DateTime.Parse(Console.ReadLine());
                 Console.Write("Check-out date (dd/MM/yyyy): ");
-                checkOut = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                checkOut = DateTime.Parse(Console.ReadLine());
 
-                string error = reservation.UpdateDates(checkIn, checkOut);
-                if (error != null)
-                {
-                    Console.WriteLine("Error in reservation: " + error);
-                }
-                else
-                {
-                    Console.WriteLine("Reservation: " + reservation);
-                }
+                reservation.UpdateDates(checkIn, checkOut);
+                Console.WriteLine("Reservation: " + reservation);
             }
-            
+            catch (FormatException e)
+            {
+                Console.WriteLine("Error in format: " + e.Message);
+            }
+            catch (DomainException e)
+            {
+                Console.WriteLine("Error in reservation: " + e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Unexpected error: " + e.Message);
+            }
         }
     }
 }
