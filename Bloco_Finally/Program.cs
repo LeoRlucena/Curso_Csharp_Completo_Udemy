@@ -20,7 +20,7 @@ public class ProcessFile
         {
             if (fs != null)
             {
-                fs.Close();
+                fs.Close(); // j
             }
         }
     }
